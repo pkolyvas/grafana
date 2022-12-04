@@ -122,6 +122,14 @@ export class AnnoListPanel extends PureComponent<Props, State> {
 
     const annotations = await getBackendSrv().get('/api/annotations', params, `anno-list-panel-${this.props.id}`);
 
+    // Force ordering of the returned annotations array by the time property
+    // This should cleanup inconsistent results
+    if (options.annoListOrder === true) {
+      annotations.sort((a: { time: number }, b: { time: number }) => b.time - a.time);
+    } else {
+      annotations.sort((a: { time: number }, b: { time: number }) => a.time - b.time);
+    }
+
     this.setState({
       annotations,
       timeInfo,

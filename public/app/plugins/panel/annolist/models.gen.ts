@@ -11,6 +11,7 @@
 export const PanelModelVersion = Object.freeze([0, 0]);
 
 export interface PanelOptions {
+  annolistOrder: boolean;
   limit: number;
   navigateAfter: string;
   navigateBefore: string;
@@ -24,6 +25,7 @@ export interface PanelOptions {
 }
 
 export const defaultPanelOptions: Partial<PanelOptions> = {
+  annolistOrder: true,
   limit: 10,
   navigateAfter: '10m',
   navigateBefore: '10m',

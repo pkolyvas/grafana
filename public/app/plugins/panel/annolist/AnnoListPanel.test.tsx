@@ -27,6 +27,7 @@ const defaultOptions: PanelOptions = {
   showTags: true,
   showTime: true,
   showUser: true,
+  annoListOrder: true,
   tags: ['tag A', 'tag B'],
 };
 

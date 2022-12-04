@@ -68,6 +68,18 @@ export const plugin = new PanelPlugin<PanelOptions>(AnnoListPanel)
         defaultValue: defaultPanelOptions.showTags,
       })
       .addRadio({
+        category: ['Display'],
+        path: 'annoListOrder',
+        name: 'Ordering of the annotations list',
+        defaultValue: defaultPanelOptions.annoListOrder,
+        settings: {
+          options: [
+            { value: true, label: 'Newest first' },
+            { value: false, label: 'Oldest first' },
+          ],
+        },
+      })
+      .addRadio({
         category: ['Link behavior'],
         path: 'navigateToPanel',
         name: 'Link target',
