@@ -62,6 +62,10 @@ Use this option to show or hide the time the annotation creation time.
 
 Use this option to show or hide the tags associated with an annotation. _NB_: You can use the tags to live-filter the annotation list on the panel itself.
 
+### Ordering of the Annotations List
+
+This option toggles the sorting of the list of annoations. You can choose between lists sorted with the newest annotations first or the oldest annotions first.
+
 ## Link behavior
 
 ### Link target
