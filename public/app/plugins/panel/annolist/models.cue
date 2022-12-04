@@ -30,7 +30,7 @@ Panel: thema.#Lineage & {
 						showUser:        bool | *true
 						showTime:        bool | *true
 						showTags:        bool | *true
-						annolistOrder:	 bool | *true
+						annoListOrder:	 bool | *true
 						navigateToPanel: bool | *true
 						navigateBefore:  string | *"10m"
 						navigateAfter:   string | *"10m"
