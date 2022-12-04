@@ -64,7 +64,7 @@ Use this option to show or hide the tags associated with an annotation. _NB_: Yo
 
 ### Ordering of the Annotations List
 
-This option toggles the sorting of the list of annoations. You can choose between lists sorted with the newest annotations first or the oldest annotions first.
+This option toggles the sorting of the list of annotations. You can choose between lists sorted with the newest annotations first or the oldest annotations first.
 
 ## Link behavior
 
